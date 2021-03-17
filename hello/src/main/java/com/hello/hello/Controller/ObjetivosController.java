@@ -1,15 +1,16 @@
-package com.hello2.hello2.Controller;
+package com.hello.hello.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hello2")
-public class Hello2 {
+@RequestMapping("hello1")
+public class ObjetivosController {
 	@GetMapping
-	public String hello2 () {
+	public String hello1() {
 		
-		return ("Hello World \nDominar Git e GitHub \nMelhorar em Java \nAprender Spring bem");
+		return ("\"Hello World \nDominar Git e GitHub \nMelhorar em Java \nAprender Spring bem\"");
 	}
+
 }
